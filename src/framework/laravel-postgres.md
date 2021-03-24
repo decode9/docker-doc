@@ -228,15 +228,6 @@ volumes:
 
 Una vez se encuentre el archivo docker-compose.yml creado se procedera a ejecutar los comandos para el levantamiento del sistema
 
-## Ejecutar docker-compose.yml
-
-Para ejecutar el archivo docker-compose.yml se ejecuta el comando
-
-``` bash
-docker-compose up
-```
-
-
 ## Ejecutar por primera vez
 
 Al ejecutar por primera vez la estructura de comandos de docker-compose up se debe realizar los siguientes comandos para configurar el entorno y la base de datos del sistema
@@ -325,7 +316,11 @@ sudo chmod 777 build.sh
 ./build.sh
 ```
 
-Y se ejecuta los servicios con el comando docker-compose
+Y se ejecuta los servicios con el comando docker-compose, ya una vez levantados estara listo el sistema
+
+## Ejecutar docker-compose.yml
+
+Para ejecutar el archivo docker-compose.yml se ejecuta el comando
 
 ``` bash
 docker-compose up

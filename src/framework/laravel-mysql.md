@@ -104,15 +104,6 @@ volumes:
 
 Una vez se encuentre el archivo docker-compose.yml creado se procedera a ejecutar los comandos para el levantamiento del sistema
 
-## Ejecutar docker-compose.yml
-
-Para ejecutar el archivo docker-compose.yml se ejecuta el comando
-
-``` bash
-docker-compose up
-```
-
-
 ## Ejecutar por primera vez
 
 Al ejecutar por primera vez la estructura de comandos de docker-compose up se debe realizar los siguientes comandos para configurar el entorno y la base de datos del sistema
@@ -205,3 +196,12 @@ Una vez ejecutado el comando estara listo nuestro usuario en la base de datos.
 Se ejecutan los comandos o el archivo explicado en la entrada [Laravel API + POSTGRESQL](laravel-postgres#comandos-para-configuracion-de-laravel-en-docker) del mismo titulo
 
 Una vez ejecutados los comandos nuestra aplicacion estara lista para funcionar en docker
+
+
+## Ejecutar docker-compose.yml
+
+Para ejecutar el archivo docker-compose.yml se ejecuta el comando
+
+``` bash
+docker-compose up
+```
