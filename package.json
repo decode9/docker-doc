@@ -1,0 +1,19 @@
+{
+  "name": "docker-doc",
+  "version": "0.0.1",
+  "description": "Documentacion de docker para diferentes frameworks",
+  "main": "index.js",
+  "authors": {
+    "name": "Jorge Bastidas",
+    "email": "jorgebastidas9@gmail.com"
+  },
+  "repository": "/docker-doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
